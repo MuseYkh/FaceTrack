@@ -3,11 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
-
-    <org.opencv.android.JavaCameraView
-        android:id="@+id/jcv_surface_view"
+    <cn.muse.facetrack.view.FaceBeautyView
+        android:id="@+id/fbv_surface_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_switch_btn"
+        android:src="@drawable/icon_switch_camera"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_take_photo_btn"
+        android:src="@drawable/selector_take_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

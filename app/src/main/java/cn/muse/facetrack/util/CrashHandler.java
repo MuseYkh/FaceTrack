@@ -1,9 +1,6 @@
-package cn.muse.facetrack;
+package cn.muse.facetrack.util;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Looper;
 import android.util.Log;
 

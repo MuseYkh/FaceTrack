@@ -2,6 +2,8 @@ package cn.muse.facetrack;
 
 import android.app.Application;
 
+import cn.muse.facetrack.util.CrashHandler;
+
 /**
  * author: muse
  * created on: 2018/12/11 下午3:38
